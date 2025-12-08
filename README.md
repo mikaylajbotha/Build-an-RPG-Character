@@ -80,25 +80,20 @@ Copy code
 
 ## Tests Passed
 
-1. Function `create_character` exists. ✅  
-2. Name is not a string → returns `"The character name should be a string."` ✅  
-3. Name longer than 10 characters → returns `"The character name is too long."` ✅  
-4. Name contains spaces → returns `"The character name should not contain spaces."` ✅  
-5. Stats are not integers → returns `"All stats should be integers."` ✅  
-6. Stats less than 1 → returns `"All stats should be no less than 1."` ✅  
-7. Stats greater than 4 → returns `"All stats should be no more than 4."` ✅  
-8. Stats do not sum to 7 → returns `"The character should start with 7 points."` ✅  
+1. Function `create_character` exists. 
+2. Name is not a string → returns `"The character name should be a string."` 
+3. Name longer than 10 characters → returns `"The character name is too long."`   
+4. Name contains spaces → returns `"The character name should not contain spaces."`   
+5. Stats are not integers → returns `"All stats should be integers."` 
+6. Stats less than 1 → returns `"All stats should be no less than 1."`   
+7. Stats greater than 4 → returns `"All stats should be no more than 4."`   
+8. Stats do not sum to 7 → returns `"The character should start with 7 points."`   
 9. `create_character("ren", 4, 2, 1)` returns the correctly formatted string:
-
-ren
-STR ●●●●○○○○○○
-INT ●●○○○○○○○○
-CHA ●○○○○○○○○○
-
-yaml
-Copy code
-✅  
-10. Valid inputs produce the character sheet exactly as required. ✅
+    ren
+    STR ●●●●○○○○○○
+    INT ●●○○○○○○○○
+    CHA ●○○○○○○○○○
+10. Valid inputs produce the character sheet exactly as required. 
 
 ---
 
